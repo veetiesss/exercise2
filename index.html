@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <h1 class="title">Academy Classrooms</h1>
+            <form class="options">
+                <select id="faculties" name="faculties">
+                    <option value="all">All Faculties</option>
+                    <option value="computerscience">Computer Science</option>
+                    <option value="mathematics">Matematics</option>
+                    <option value="physics">Physics</option>
+                </select>
+                <div class="filter">
+                    <input type="text" id="groupname" placeholder="Group Name">
+                    <input type="number" id="studentammount" min="1" max="20" placeholder="Student">
+                    <input type="text" name="" id="faculty" placeholder="Faculty">
+                    <button id="filter" type="submit">Filter</button>
+                </div>
+                <button id="sort">Sort by Capacity</button>
+            </form>
+            <div class="classrooms">
+                <div class="classroom A101">
+                    <h2 class="name">A101</h2>
+                    <h2 class="description">Capacity: 15</h2>
+                    <h2 class="description">Faculty: Computer Science</h2>
+                </div>
+                <div class="classroom B202">
+                    <h2 class="name">B202</h2>
+                    <h2 class="description">Capacity: 18</h2>
+                    <h2 class="description">Faculty: Mathematics</h2>
+                </div>
+                <div class="classroom C303">
+                    <h2 class="name">C303</h2>
+                    <h2 class="description">Capacity: 12</h2>
+                    <h2 class="description">Faculty: Physics</h2>
+                </div>
+                <div class="classroom D404">
+                    <h2 class="name">D404</h2>
+                    <h2 class="description">Capacity: 20</h2>
+                    <h2 class="description">Faculty: Computer Science</h2>
+                </div>
+                <div class="classroom E505">
+                    <h2 class="name">E505</h2>
+                    <h2 class="description">Capacity: 10</h2>
+                    <h2 class="description">Faculty: Mathematics</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
